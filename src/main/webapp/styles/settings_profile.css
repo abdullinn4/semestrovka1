@@ -1,0 +1,108 @@
+.main_profile{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    padding: 52px;
+}
+.main_profile_nav{
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 40px;
+    align-items: flex-start;
+}
+.profile_info{
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.main_profile_setting{
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+}
+.general_info_photo{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    align-items: center;
+}
+.user_profile_icon{
+    width: 70%;
+}
+.general_info_names{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.profile_inputs{
+    border-radius: 8px;
+    border: 1px solid #D1D5DB;
+    background: #FFF;
+    width: 200px;
+    height: 32px;
+}
+.profile_photo{
+    display: flex;
+    align-items: center;
+}
+.user_companies{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 30px;
+}
+.settings_submit{
+    display: flex;
+    justify-content: end;
+    padding-top: 40px;
+    padding-right: 115px;
+}
+.setting_button{
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    background: #111;
+    color: white;
+}
+.deleteUserButton{
+    height: 45px;
+    width: 150px;
+    border-radius: 40px;
+    background: #111;
+    color: white;
+}
+.deleteForm{
+    display: flex;
+    padding-left: 36%;
+    padding-top: 100px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.deleteFormInfo{
+    height: 120px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 52px;
+    border-radius: 40px;
+    background: white;
+}
+.confirmDeleteUserButton{
+    height: 36px;
+    width: 109px;
+    border-radius: 40px;
+    background: #111;
+    color: white;
+}
+.cancelDeleteUserButton {
+    height: 36px;
+    width: 109px;
+    border-radius: 40px;
+    background: #111;
+    color: white;
+}

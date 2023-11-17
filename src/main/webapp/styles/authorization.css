@@ -1,0 +1,53 @@
+
+.main{
+    width: 1440px;
+    height: 1070px;
+}
+.log_in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 52px;
+}
+.log_in_info{
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    border-radius: 32px;
+    border: 1px solid rgba(102, 102, 102, 0.30);
+    background: #FFF;
+}
+.log_in_start_text{
+    display: flex;
+    justify-content: center;
+}
+.log_in_inputs{
+    height: 56px;
+    width: 549px;
+    border-radius: 12px;
+    border: 1px solid #666;
+}
+.rememberMe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.log_in_submit{
+    height: 56px;
+    width: 549px;
+    border-radius: 40px;
+    background: #111;
+    color: white;
+}
+.log_in_finish_text{
+    display: flex;
+    justify-content: center;
+}
+.log_in_signupnow{
+    color: #111111;
+}

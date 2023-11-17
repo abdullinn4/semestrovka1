@@ -1,0 +1,19 @@
+.applications_form{
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.applications_form li{
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 1px solid #D1D5DB;
+}
+.applications_form a{
+    display: flex;
+    align-items: center;
+}
+.applications_form h3{
+    padding-left: 40px;
+}

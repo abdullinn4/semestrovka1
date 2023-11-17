@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;900&family=Roboto:wght@100&display=swap");
+@import "header.css";
+@import "authorization.css";
+@import "registration.css";
+@import "main.css";
+@import "footer.css";
+@import "user_profile.css";
+@import "settings_profile.css";
+@import "add_company.css";
+@import "companies.css";
+@import "applications.css";
+
+* {
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline
+}
+

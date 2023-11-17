@@ -1,0 +1,88 @@
+.all_companies{
+    width: 1336px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.all_companies h3{
+    padding-left: 40px;
+}
+.company_name li{
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 1px solid #D1D5DB;
+}
+.company_name a{
+    display: flex;
+    align-items: center;
+}
+#searchInput{
+    display: flex;
+    width: 1000px;
+    margin: 10px 50px 10px 50px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+}
+#myCompanies{
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+#myCompanies li a{
+    width: 1000px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: #f6f6f6;
+    padding: 12px;
+    margin-left: 50px;
+}
+.searching_filtering{
+    display: flex;
+    flex-direction: row;
+}
+.filterButton{
+    background-color: #FFFFFF;
+    border: none;
+}
+.filter_img{
+    width: 85%;
+}
+.filterPanel{
+    display: flex;
+    flex-direction: column;
+    padding-left: 36%;
+    padding-top: 100px;
+    position: absolute;
+}
+.filterPanel_form{
+    height: 100%;
+    width: 400px;
+    border: 2px solid black;
+    padding: 52px;
+    border-radius: 40px;
+    background: white;
+}
+.filterPanel_form h3{
+    text-align: center;
+}
+.filterPanel_name{
+    display: flex;
+    padding: 10px;
+}
+.filter_checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.applyFilterButton{
+    display: flex;
+    margin-top: 15px;
+    height: 36px;
+    width: 109px;
+    border-radius: 40px;
+    background: #111;
+    color: white;
+}
+

@@ -1,0 +1,25 @@
+footer{
+    border-top: 2px solid black;
+}
+.footer_wrapper{
+    width: 1336px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 52px;
+}
+.footer_left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer_right{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.footer_right_columns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
